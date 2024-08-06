@@ -1,0 +1,2 @@
+D:\users\usuario\Desktop\Programl-2024\mi PrimerProyecto\mi PrimerProyecto\obj\Debug\mi PrimerProyecto.csproj.AssemblyReference.cache
+D:\users\usuario\Desktop\Programl-2024\mi PrimerProyecto\mi PrimerProyecto\obj\Debug\mi PrimerProyecto.csproj.CoreCompileInputs.cache
