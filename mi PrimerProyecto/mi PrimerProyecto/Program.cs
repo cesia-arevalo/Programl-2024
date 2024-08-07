@@ -11,23 +11,28 @@ namespace mi_PrimerProyecto
         static void Main(string[] args{
 
 
-            bool comprobar = true ;
-            Console . WriteLine ( " El valor es : {0} " , comprobar ) ;
-            //prioridad de los operadores aritmeticos.
-            //se pone el sufijo m para la división con decimales.
+            //prioridad de los operadores aritméticos.
+            // se pone el sufilo m para la division con decimales .
              decimal respuesta = 5 + 8 - 2 * 5 / 4m + 1; //14.75 valor incorrecto; 11.5 -> valor correcto
             Console . WriteLine ( " La respuesta es: {0} " , respuesta ) ;
+            // ejercicio de obtener la nota final de la materia de programacion I .
+            Console.WriteLine ( " Lab1 : " ) ;
+            double lab1 = double . Parse ( Console . ReadLine ( ) ) ; //8
 
-            Console . WriteLine ( " Nombre: " ) ;
-            string nombre = Console.ReadLine ( ) ;
+            Console.WriteLine ( " Lab2 : " ) ;
+            double lab2 = double . Parse ( Console . ReadLine ( ) ) ; //9
 
-            Console . WriteLine ( " Hola {0} bienvenido " , nombre ) ;
+            Console . WriteLine ( " La división de 5/4 es {0} " , 5/4 ) ;
+            Console . WriteLine ( " parcial 1: " ) ;
+            double parcial1 = double . Parse ( Console.ReadLine ( ) ) ; //7
 
-            DateTime fechaActual = new DateTime ( ) ;
-            fechaActual = DateTime . Now ;
-            Console . WriteLine ( " La fecha actal es: {0} " , fechaActual ) ;
-            Console . WriteLine ( " La división de 5/4 es {0}  " , 5/4 ) ;
+            // 8*30%= 2,4
+            // 9*30%= 2,7
+            // 7*40%= 2,8
+            //C1 = 7,9
 
+            double c1 = lab1 * 30 / 100 + lab2 * 30 / 100 + parcial1 * 40 / 100 ;
+            Console . WriteLine ( " La nota de c1 es: {0} " , c1 ) ;
             //Pausa.
             Console .ReadLine ( ) ;
         }
