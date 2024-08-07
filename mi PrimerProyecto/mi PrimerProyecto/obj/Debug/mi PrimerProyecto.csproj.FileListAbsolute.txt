@@ -1,2 +1,7 @@
 D:\users\usuario\Desktop\Programl-2024\mi PrimerProyecto\mi PrimerProyecto\obj\Debug\mi PrimerProyecto.csproj.AssemblyReference.cache
 D:\users\usuario\Desktop\Programl-2024\mi PrimerProyecto\mi PrimerProyecto\obj\Debug\mi PrimerProyecto.csproj.CoreCompileInputs.cache
+D:\users\usuario\Desktop\Programl-2024\mi PrimerProyecto\mi PrimerProyecto\bin\Debug\mi PrimerProyecto.exe.config
+D:\users\usuario\Desktop\Programl-2024\mi PrimerProyecto\mi PrimerProyecto\bin\Debug\mi PrimerProyecto.exe
+D:\users\usuario\Desktop\Programl-2024\mi PrimerProyecto\mi PrimerProyecto\bin\Debug\mi PrimerProyecto.pdb
+D:\users\usuario\Desktop\Programl-2024\mi PrimerProyecto\mi PrimerProyecto\obj\Debug\mi PrimerProyecto.exe
+D:\users\usuario\Desktop\Programl-2024\mi PrimerProyecto\mi PrimerProyecto\obj\Debug\mi PrimerProyecto.pdb
