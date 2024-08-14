@@ -8,8 +8,7 @@ namespace mi_PrimerProyecto
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
             //obtener la secuencia de fibonacci
             int a = 0, b = 1, c = 1;
             /*
