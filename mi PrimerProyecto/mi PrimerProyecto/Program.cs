@@ -8,34 +8,15 @@ namespace mi_PrimerProyecto
 {
     class Program
     {
-        static void Main(string[] args) {
-            //obtener la secuencia de fibonacci
-            int a = 0, b = 1, c = 1;
-            /*
-             a+b=c
-             0+1=1
-             1+0=1
-             1+1=2
-             2+1=3
-             3+2=5
-             5+3=8
-             8+5=13
-
-             ...
-            */
-            while (c < 100) { 
-            Console.WriteLine(" {0}+{1}={2}", a, b, c);
-                b = a;
-                a = c;
-                c = a + b;
-            }
-            Console.ReadLine();
+        static void Main(string[] args) { 
+            //Uso de matrices
+            int[] numeros = new int[] { 2, 8, 9, 10, 1, };
+            Console.WriteLine("El numero de la posicion 3 es {0}", numeros[3]);
+            //pausa
+            Console.ReadKey();
         }
     }
 }
 
 
-
-
-
-              
+           
