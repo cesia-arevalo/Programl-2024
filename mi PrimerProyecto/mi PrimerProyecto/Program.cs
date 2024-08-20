@@ -12,14 +12,8 @@ namespace mi_PrimerProyecto
             //Uso de funciones...
             //ejercicio encontrar la media aritmetica y la desviación típica de una serie de números.
 
-            Console.Write(" Ingrese la serie de números separados por comas: ");
-            string serie = Console.ReadLine();​​
-            string[] numeros = serie.Split(',');
-
-            Console.WriteLine(" La media aritmetica es: {0}, y la desviacion tipica es: {1} ", media(numeros), tipica(numeros));
-
-            Console.ReadLine();
-
+            Console.WriteLine(" La media aritmetica es: {0}, y la desviación típica es: {1}, la media armonica es: {2} ",
+                media (numeros), tipica(numeros), armonica(numeros));
         }
         static double media(int[] serie) {
             double media = 0;
@@ -36,6 +30,16 @@ namespace mi_PrimerProyecto
             }
             tipica = Math.Sqrt(tipica / serie.Length);
             return Math.Round(tipica, 2);
+
+            static double armonica (string[ ] serie) { 
+                double armónica = 0;
+                foreach (string num in serie )  {
+                    armónica += (1.0 / double.Parse(num));
+                }
+                armónica = serie.Length / armónica;
+                return Math . Round(armónica, 2);
+            }
         }
     }
 }
+    
