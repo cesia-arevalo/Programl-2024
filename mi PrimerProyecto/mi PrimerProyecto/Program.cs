@@ -12,10 +12,14 @@ namespace mi_PrimerProyecto
             //Uso de funciones...
             //ejercicio encontrar la media aritmetica y la desviación típica de una serie de números.
 
-            int[] serie = new int[] { 1, 2, 3, 4, 5 };
-            Console.WriteLine(" La media aritmetica es: {0}, y la desviación típica es: {1} ", media(serie), tipica(serie));
+            Console.Write(" Ingrese la serie de números separados por comas: ");
+            string serie = Console.ReadLine();​​
+            string[] numeros = serie.Split(',');
+
+            Console.WriteLine(" La media aritmetica es: {0}, y la desviacion tipica es: {1} ", media(numeros), tipica(numeros));
 
             Console.ReadLine();
+
         }
         static double media(int[] serie) {
             double media = 0;
