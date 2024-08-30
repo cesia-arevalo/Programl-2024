@@ -10,7 +10,7 @@ namespace mi_PrimerProyecto
     {
         static void Main(string[] args)
         {
-            static void Main()
+            
             {
                 try
                 {
@@ -34,7 +34,7 @@ namespace mi_PrimerProyecto
                 }
             }
 
-            static double CalcularImpuesto(double monto)
+             double CalcularImpuesto(double monto)
             {
                 double impuesto = 0;
 
