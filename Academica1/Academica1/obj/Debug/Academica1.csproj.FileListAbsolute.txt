@@ -1,0 +1,8 @@
+C:\Users\Usuario\source\repos\Programl-2024\Academica1\Academica1\obj\Debug\Academica1.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Programl-2024\Academica1\Academica1\obj\Debug\Academica1.APLICACION_ACADEMICA.resources
+C:\Users\Usuario\source\repos\Programl-2024\Academica1\Academica1\obj\Debug\Academica1.Docente.resources
+C:\Users\Usuario\source\repos\Programl-2024\Academica1\Academica1\obj\Debug\Academica1.Form1.resources
+C:\Users\Usuario\source\repos\Programl-2024\Academica1\Academica1\obj\Debug\Academica1.Materias.resources
+C:\Users\Usuario\source\repos\Programl-2024\Academica1\Academica1\obj\Debug\Academica1.Properties.Resources.resources
+C:\Users\Usuario\source\repos\Programl-2024\Academica1\Academica1\obj\Debug\Academica1.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Programl-2024\Academica1\Academica1\obj\Debug\Academica1.csproj.CoreCompileInputs.cache
